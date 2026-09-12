@@ -35,7 +35,7 @@ const app = express();
 // ── CORS ──
 // In production, set CORS_ORIGINS in .env as a comma-separated list of
 // allowed frontend URLs (e.g. your Netlify/Vercel domain for the platform).
-const allowedOrigins = (process.env.CORS_ORIGINS || 'http://localhost:5173')
+const allowedOrigins = (process.env.CORS_ORIGINS || 'https://storeos-pink.vercel.app')
   .split(',')
   .map(o => o.trim());
 
